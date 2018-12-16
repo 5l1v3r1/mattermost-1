@@ -6,4 +6,4 @@ Use the mysqldump tool to extract the database.
 
 Usage: mysqldump -u root -p <database> > backup.sql
 
-Usage: python mmdb.py -i backup.sql -o output.txt -l logging.txt
+Usage: python mm_dump.py -i backup.sql -o output.txt -l logging.txt
